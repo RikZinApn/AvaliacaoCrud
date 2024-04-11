@@ -1,0 +1,85 @@
+<div class="container text-center">
+    <div class="row">
+        <div class="col-1">
+            &nbsp;
+        </div>
+        <div class="col bg-primary">
+            <nav class="navbar bg-primary navbar-expand-lg" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">SISTEMA WEB</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="/">Cadastrar</a>
+                            <a class="nav-link" href="/consulta">Consultar</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            &nbsp;
+        </div>
+        <div class="col bg-white">
+            &nbsp;
+        </div>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            
+            &nbsp;
+        </div>
+        <div class="col bg-white">
+            <p class="text-start fs-5">Cadastro de Cliente</p>
+            <p class="text-start fs-6">Sistema Utilizado para serviços.</p>
+            <p>
+                <form action="/cadastrar" method="POST">
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Nome:</label>
+                        <input type="name" name="nome" class="form-control" id="nome">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Telefone:</label>
+                        <input type="number" name="telefone" class="form-control" id="telefone" placeholder="(00)00000-0000">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Endereço:</label>
+                        <textarea name="endereco" class="form-control" placeholder="" id="endereco" style="height: 100px"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Bairro:</label>
+                        <textarea name="bairro" class="form-control" placeholder="" id="bairro" style="height: 100px"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">CEP:</label>
+                        <input type="number" name="cep" class="form-control" id="cep" placeholder="000.000.000-00">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Cidade:</label>
+                        <textarea name="cidade" class="form-control" placeholder="" id="cidade" style="height: 100px"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Estado:</label>
+                        <textarea name="estado" class="form-control" placeholder="" id="estado" style="height: 100px"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </form>
+            </p>
+        </div>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+</div>
